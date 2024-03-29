@@ -9,7 +9,6 @@ int factorial(int n)
 }
 
 double Neuton(vector<double>& x, vector<double>& y, double a) {
-    
     int n = x.size();
     double sum = 0;
     double mult;
@@ -18,8 +17,7 @@ double Neuton(vector<double>& x, vector<double>& y, double a) {
     for (int i = 0; i < n; i++) {
         table[i][0] = y[i];
     }
-    
-    
+      
     for (int j = 1; j < n; ++j) {
         for (int i = 0; i < n - j; ++i) {
             table[i][j] = j*(table[i][j - 1] - table[i+1][j - 1]) / (x[i] - x[i+j]);
@@ -27,7 +25,6 @@ double Neuton(vector<double>& x, vector<double>& y, double a) {
     }
     
     for(int k=0; k<n;k++){
-        
         mult = 1;
         for(int i=0; i<k; i++){
             mult*=(a-x[i]);
