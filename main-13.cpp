@@ -1,10 +1,3 @@
-//
-//  main.cpp
-//  N12
-//
-//  Created by Александр Смакотин on 26.03.2024.
-//
-
 #include <iostream>
 #include <math.h>
 using namespace std;
