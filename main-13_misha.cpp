@@ -1,12 +1,4 @@
-//
-//  main.cpp
-//  zad 13
-//
-//  Created by Михаил Смакотин on 24.03.2024.
-//
-
 #include <iostream>
-
 #define n 8
 
 using namespace std;
